@@ -69,3 +69,36 @@ export const APPROCHE_DATA = [
       "Nos enseignements s'appuient exclusivement sur notre expérience opérationnelle et sur des méthodes réellement efficaces en contexte commercial.",
   },
 ];
+
+export const FAQ_DATA = [
+  {
+    id: 1,
+    question: "Vous êtes une nouvelle agence — comment vous faire confiance ?",
+    answer:
+      "Bien que Riverco & Co soit une structure récente, nous nous appuyons sur l'expertise consolidée du groupe Play To Sky et sur des fondateurs ayant fait leurs preuves dans le développement commercial B2B. Nos méthodes sont testées et validées sur le terrain.",
+  },
+  {
+    id: 2,
+    question: "Vous travaillez avec quel type de budget ?",
+    answer:
+      "Nous proposons des solutions sur-mesure. Notre modèle tarifaire est hybride, combinant un socle fixe pour la mise en place opérationnelle de la force de vente et une part variable indexée sur les performances et les rendez-vous qualifiés générés.",
+  },
+  {
+    id: 3,
+    question: "Combien de temps prend un projet typique ?",
+    answer:
+      "Le déploiement initial (immersion, création des scripts, formation) prend généralement 2 semaines. Les premières campagnes débutent dans la foulée, avec de premiers résultats tangibles dès le premier mois.",
+  },
+  {
+    id: 4,
+    question: "Vous êtes basés où ? Vous travaillez en dehors de Paris ?",
+    answer:
+      "Bien que nous soyons implantés avec des hubs à Paris, London et New York, notre force de frappe est mondiale. Nous accompagnons nos clients à l'international, partout où leurs enjeux de croissance se trouvent.",
+  },
+  {
+    id: 5,
+    question: "Que se passe-t-il si le résultat ne me convient pas ?",
+    answer:
+      "Nous fonctionnons dans une logique de partenariat et de transparence. Si les KPI définis ensemble ne sont pas atteints, nous ajustons nos approches (scripts, ciblages) sans frais supplémentaires. Notre part variable garantit notre alignement total avec vos intérêts.",
+  },
+];
