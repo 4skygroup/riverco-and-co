@@ -8,6 +8,8 @@ import ScrollToTop from './components/layouts/ScrollToTop';
 // Import de nos pages
 import Home from './pages/Home';
 import Externalisation from './pages/Externalisation';
+import Methodologie from './pages/Methodologie';
+import Outils from './pages/Outils';
 
 function App() {
     return (
@@ -23,6 +25,8 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/externalisation" element={<Externalisation />} />
+                        <Route path="/methodologie" element={<Methodologie />} />
+                        <Route path="/outils" element={<Outils />} />
                         <Route path="*" element={<Home />} />
                     </Routes>
                 </main>

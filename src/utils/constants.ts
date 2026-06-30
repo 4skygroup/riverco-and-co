@@ -148,3 +148,95 @@ export const EXTERNALISATION_AVANTAGES = [
     description: "Nos équipes connaissent les codes culturels et réglementaires de chaque marché visé."
   }
 ];
+
+// --- Page Méthodologie
+
+export const METHODOLOGIE_PARCOURS = [
+  {
+    step: "1",
+    title: "Audit stratégique & cadrage",
+    description: "Analyse approfondie de votre marché, positionnement, cibles et avantages concurrentiels. Définition ensemble des objectifs mesurables et des marchés prioritaires.",
+    tags: ["Workshops", "Analyse Concurrentielle", "Définition Des ICP"]
+  },
+  {
+    step: "2",
+    title: "Immersion & formation intensive",
+    description: "Nos commerciaux suivent un cursus d'immersion total dans votre culture, produits, valeurs et discours commercial. Formation continue pour une représentation d'élite.",
+    tags: ["Formation Produit", "Culture D'entreprise", "Pitch Commercial", "Objections"]
+  },
+  {
+    step: "3",
+    title: "Déploiement & activation terrain",
+    description: "Mise en place de la stack technologique, configuration CRM, lancement des premières campagnes de prospection multicanale ciblées.",
+    tags: ["Configuration CRM", "Séquences Email", "Prospection Téléphonique"]
+  },
+  {
+    step: "4",
+    title: "Pilotage continu & optimisation",
+    description: "Reporting hebdomadaire partagé, ajustements stratégiques data-driven, montée en puissance progressive. Votre performance s'améliore semaine après semaine.",
+    tags: ["Dashboard Live", "Reporting Hebdo", "A/B Testing Pitch"]
+  }
+];
+
+export const METHODOLOGIE_PHILOSOPHIE = [
+  {
+    tag: "Immersion",
+    title: "Former comme un interne",
+    description: "Nos commerciaux ne sont pas de simples exécutants. Ils connaissent votre offre, votre histoire, vos valeurs et vos clients aussi bien que vous. Cette profondeur garantit une représentation d'élite."
+  },
+  {
+    tag: "Continuité",
+    title: "Formation continue",
+    description: "À chaque évolution produit, à chaque nouveau marché, à chaque feedback terrain — nos équipes se reforment pour maintenir un niveau d'excellence constant sur la durée."
+  }
+];
+
+// --- Page Outil
+
+export const OUTILS_ECOSYSTEME = [
+  {
+    title: "CRM & gestion du pipeline",
+    badge: "Intégré",
+    description: "Connexion directe à votre CRM existant (Salesforce, HubSpot, Pipedrive...). Chaque appel, chaque échange, chaque relance est tracé en temps réel dans votre outil.",
+    features: [
+      "Synchronisation bidirectionnelle automatique",
+      "Qualification des leads en temps réel",
+      "Historique complet de chaque interaction"
+    ]
+  },
+  {
+    title: "Prospection multicanale",
+    badge: "Intégré",
+    description: "Orchestration de séquences de prospection mêlant cold calling, cold emailing et social selling pour engager vos prospects là où ils sont le plus réceptifs.",
+    features: [
+      "Séquences email personnalisées et automatisées",
+      "Automatisation des points de contact LinkedIn",
+      "Tracking d'ouverture, de clics et de réponses"
+    ]
+  },
+  {
+    title: "Data B2B & Enrichissement",
+    description: "Accès aux bases de données les plus fiables du marché pour identifier vos ICP (Ideal Customer Profile) et obtenir des coordonnées directes et vérifiées.",
+    features: [
+      "Scraping ciblé, légal et 100% RGPD compliant",
+      "Enrichissement des données en temps réel",
+      "Vérification des adresses emails et numéros"
+    ]
+  },
+  {
+    title: "Reporting & Analytics",
+    description: "Tableaux de bord personnalisés pour suivre les KPIs de vos campagnes. Vous gardez un œil sur le volume d'appels, les taux de conversion et le pipeline généré.",
+    features: [
+      "Dashboard Live accessible 24/7",
+      "Suivi des KPIs (taux de conversion, RDV pris)",
+      "Enregistrement et analyse qualitative des appels"
+    ]
+  }
+];
+
+export const OUTILS_COMPATIBLES = [
+  "SALESFORCE",
+  "HUBSPOT",
+  "PIPEDRIVE",
+  "LINKEDIN"
+];
