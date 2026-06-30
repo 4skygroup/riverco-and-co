@@ -1,5 +1,5 @@
 import Approche from '../components/home/Approche';
-import Faq from '../components/home/Faq';
+import Faq from '../components/home/FAQ';
 import Hero from '../components/home/Hero';
 import Piliers from '../components/home/Piliers';
 
