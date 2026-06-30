@@ -12,6 +12,7 @@ import Methodologie from './pages/Methodologie';
 import Outils from './pages/Outils';
 import Localisation from './pages/Localisation';
 import Recrutement from './pages/Recrutement';
+import Contact from './pages/Contact';
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                 <main className="grow w-full">
                     <Routes>
                         <Route path="/" element={<Home />} />
+                        <Route path="/contact" element={<Contact />} />
                         <Route path="/externalisation" element={<Externalisation />} />
                         <Route path="/localisation" element={<Localisation />} />
                         <Route path="/methodologie" element={<Methodologie />} />
