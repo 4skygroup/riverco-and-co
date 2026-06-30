@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Externalisation from './pages/Externalisation';
 import Methodologie from './pages/Methodologie';
 import Outils from './pages/Outils';
+import Localisation from './pages/Localisation';
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/externalisation" element={<Externalisation />} />
+                        <Route path="/localisation" element={<Localisation />} />
                         <Route path="/methodologie" element={<Methodologie />} />
                         <Route path="/outils" element={<Outils />} />
                         <Route path="*" element={<Home />} />

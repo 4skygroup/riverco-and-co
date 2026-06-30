@@ -240,3 +240,48 @@ export const OUTILS_COMPATIBLES = [
   "PIPEDRIVE",
   "LINKEDIN"
 ];
+
+// --- Page Localisation
+
+export const LOCALISATION_HUBS = [
+  {
+    bgCity: "paris",
+    bgRegion: "EUROPE",
+    title: "Paris",
+    subtitle: "Hub Europe — Siège",
+    description: "Siège opérationnel et stratégique. Coordination globale, co-construction des stratégies clients et pilotage des équipes européennes depuis la capitale."
+  },
+  {
+    bgCity: "London",
+    bgRegion: "UK & NORTH",
+    title: "London",
+    subtitle: "Hub UK & Europe du Nord",
+    description: "Au cœur du premier centre financier européen, notre hub londonien opère sur les marchés anglophones, nordiques et d'Europe du Nord."
+  },
+  {
+    bgCity: "new york",
+    bgRegion: "AMERICAS",
+    title: "New York", // Corrigé depuis la maquette ;)
+    subtitle: "Hub Amériques",
+    description: "Une implantation au cœur du marché américain pour conquérir les États-Unis, le Canada et l'Amérique latine avec une équipe locale et des codes culturels maîtrisés."
+  }
+];
+
+export const LOCALISATION_SYNERGIE = [
+  {
+    title: "Maîtrise culturelle locale",
+    description: "Chaque hub recrute et forme des commerciaux natifs du marché. Ils comprennent les codes, les attentes et les décideurs locaux — une crédibilité impossible à simuler."
+  },
+  {
+    title: "Coordination centrale",
+    description: "Malgré leur autonomie locale, tous nos hubs partagent la même méthodologie, les mêmes outils et la même vision stratégique définie avec vous depuis Paris."
+  },
+  {
+    title: "Couverture horaire mondiale",
+    description: "Paris, Londres, New York — nos trois fuseaux garantissent une présence commerciale active sur toutes les plages horaires business des marchés clés."
+  },
+  {
+    title: "Scalabilité immédiate",
+    description: "Vous souhaitez attaquer un nouveau marché ? Nos hubs existants vous permettent de l'activer en semaines, sans création de structure ni recrutement local."
+  }
+];
