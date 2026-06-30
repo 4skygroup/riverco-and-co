@@ -346,3 +346,28 @@ export const OFFRES_EMPLOI = [
       "Votre mission : Piloter la stack technologique, automatiser les processus CRM et assurer la qualité de la donnée pour maximiser la performance des campagnes.",
   },
 ];
+
+// --- Page Services
+
+export const SERVICES_ITEMS = [
+  {
+    title: "Externalisation commerciale clé en main",
+    description: "Une force de vente internationale immédiatement opérationnelle. Vos commerciaux dédiés, formés à votre ADN, déployés sur vos marchés cibles en moins de 4 semaines.",
+    stats: { appels: "2 300", trend: "+21%" }
+  },
+  {
+    title: "Prospection Inbound & Outbound",
+    description: "Multiplication des points de contact stratégiques. Nous combinons cold calling, emailing et LinkedIn automation pour saturer votre pipeline de leads qualifiés.",
+    stats: { appels: "1 850", trend: "+15%" }
+  },
+  {
+    title: "Consulting Stratégie Commerciale",
+    description: "Audit de vos process actuels et refonte de votre stack sales. Nous structurons votre croissance pour passer à l'échelle (scale) sans friction opérationnelle.",
+    stats: { appels: "3 100", trend: "+32%" }
+  },
+  {
+    title: "Recrutement & Formation Sales",
+    description: "Vous préférez internaliser ? Nous sourçons, recrutons et formons vos équipes à nos méthodes de vente d'élite. Transmission de savoir-faire garantie.",
+    stats: { appels: "2 500", trend: "+18%" }
+  }
+];

@@ -13,6 +13,7 @@ import Outils from './pages/Outils';
 import Localisation from './pages/Localisation';
 import Recrutement from './pages/Recrutement';
 import Contact from './pages/Contact';
+import Services from './pages/Services';
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                         <Route path="/methodologie" element={<Methodologie />} />
                         <Route path="/outils" element={<Outils />} />
                         <Route path="/recrutement" element={<Recrutement />} />
+                        <Route path="/services" element={<Services />} />
                         <Route path="*" element={<Home />} />
                     </Routes>
                 </main>
