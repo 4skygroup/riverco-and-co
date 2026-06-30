@@ -111,7 +111,7 @@ export const COMPARISON_INTERNE = [
   "Coûts fixes élevés (salaires, charges, bureaux)",
   "Formation longue et incertaine",
   "Risque d'implantation internationale",
-  "Visibilité limitée sur la performance"
+  "Visibilité limitée sur la performance",
 ];
 
 export const COMPARISON_RIVERCO = [
@@ -119,34 +119,40 @@ export const COMPARISON_RIVERCO = [
   "100% coûts variables, zéro structure",
   "Équipe formée à votre ADN dès J+1",
   "3 hubs actifs Paris, Londres, New York",
-  "Dashboard partagé en temps réel"
+  "Dashboard partagé en temps réel",
 ];
 
 export const EXTERNALISATION_AVANTAGES = [
   {
     title: "Recrutement & RH",
-    description: "Nous gérons la sélection, la formation et le management opérationnel de votre équipe commerciale."
+    description:
+      "Nous gérons la sélection, la formation et le management opérationnel de votre équipe commerciale.",
   },
   {
     title: "Implantation locale",
-    description: "Nos hubs existants vous donnent une présence immédiate sur les marchés clés, sans entité juridique locale."
+    description:
+      "Nos hubs existants vous donnent une présence immédiate sur les marchés clés, sans entité juridique locale.",
   },
   {
     title: "Pilotage & reporting",
-    description: "Un accès temps réel à vos KPIs commerciaux. Vous gardez la vision, nous gérons l'exécution."
+    description:
+      "Un accès temps réel à vos KPIs commerciaux. Vous gardez la vision, nous gérons l'exécution.",
   },
   {
     title: "Stack technologique",
-    description: "CRM, outils de prospection, automation — entièrement configurés et maintenus par nos équipes."
+    description:
+      "CRM, outils de prospection, automation — entièrement configurés et maintenus par nos équipes.",
   },
   {
     title: "Stratégie & ajustements",
-    description: "Nous optimisons le discours, le ciblage et la stratégie en continu selon les résultats terrain."
+    description:
+      "Nous optimisons le discours, le ciblage et la stratégie en continu selon les résultats terrain.",
   },
   {
     title: "Conformité internationale",
-    description: "Nos équipes connaissent les codes culturels et réglementaires de chaque marché visé."
-  }
+    description:
+      "Nos équipes connaissent les codes culturels et réglementaires de chaque marché visé.",
+  },
 ];
 
 // --- Page Méthodologie
@@ -155,40 +161,51 @@ export const METHODOLOGIE_PARCOURS = [
   {
     step: "1",
     title: "Audit stratégique & cadrage",
-    description: "Analyse approfondie de votre marché, positionnement, cibles et avantages concurrentiels. Définition ensemble des objectifs mesurables et des marchés prioritaires.",
-    tags: ["Workshops", "Analyse Concurrentielle", "Définition Des ICP"]
+    description:
+      "Analyse approfondie de votre marché, positionnement, cibles et avantages concurrentiels. Définition ensemble des objectifs mesurables et des marchés prioritaires.",
+    tags: ["Workshops", "Analyse Concurrentielle", "Définition Des ICP"],
   },
   {
     step: "2",
     title: "Immersion & formation intensive",
-    description: "Nos commerciaux suivent un cursus d'immersion total dans votre culture, produits, valeurs et discours commercial. Formation continue pour une représentation d'élite.",
-    tags: ["Formation Produit", "Culture D'entreprise", "Pitch Commercial", "Objections"]
+    description:
+      "Nos commerciaux suivent un cursus d'immersion total dans votre culture, produits, valeurs et discours commercial. Formation continue pour une représentation d'élite.",
+    tags: [
+      "Formation Produit",
+      "Culture D'entreprise",
+      "Pitch Commercial",
+      "Objections",
+    ],
   },
   {
     step: "3",
     title: "Déploiement & activation terrain",
-    description: "Mise en place de la stack technologique, configuration CRM, lancement des premières campagnes de prospection multicanale ciblées.",
-    tags: ["Configuration CRM", "Séquences Email", "Prospection Téléphonique"]
+    description:
+      "Mise en place de la stack technologique, configuration CRM, lancement des premières campagnes de prospection multicanale ciblées.",
+    tags: ["Configuration CRM", "Séquences Email", "Prospection Téléphonique"],
   },
   {
     step: "4",
     title: "Pilotage continu & optimisation",
-    description: "Reporting hebdomadaire partagé, ajustements stratégiques data-driven, montée en puissance progressive. Votre performance s'améliore semaine après semaine.",
-    tags: ["Dashboard Live", "Reporting Hebdo", "A/B Testing Pitch"]
-  }
+    description:
+      "Reporting hebdomadaire partagé, ajustements stratégiques data-driven, montée en puissance progressive. Votre performance s'améliore semaine après semaine.",
+    tags: ["Dashboard Live", "Reporting Hebdo", "A/B Testing Pitch"],
+  },
 ];
 
 export const METHODOLOGIE_PHILOSOPHIE = [
   {
     tag: "Immersion",
     title: "Former comme un interne",
-    description: "Nos commerciaux ne sont pas de simples exécutants. Ils connaissent votre offre, votre histoire, vos valeurs et vos clients aussi bien que vous. Cette profondeur garantit une représentation d'élite."
+    description:
+      "Nos commerciaux ne sont pas de simples exécutants. Ils connaissent votre offre, votre histoire, vos valeurs et vos clients aussi bien que vous. Cette profondeur garantit une représentation d'élite.",
   },
   {
     tag: "Continuité",
     title: "Formation continue",
-    description: "À chaque évolution produit, à chaque nouveau marché, à chaque feedback terrain — nos équipes se reforment pour maintenir un niveau d'excellence constant sur la durée."
-  }
+    description:
+      "À chaque évolution produit, à chaque nouveau marché, à chaque feedback terrain — nos équipes se reforment pour maintenir un niveau d'excellence constant sur la durée.",
+  },
 ];
 
 // --- Page Outil
@@ -197,48 +214,52 @@ export const OUTILS_ECOSYSTEME = [
   {
     title: "CRM & gestion du pipeline",
     badge: "Intégré",
-    description: "Connexion directe à votre CRM existant (Salesforce, HubSpot, Pipedrive...). Chaque appel, chaque échange, chaque relance est tracé en temps réel dans votre outil.",
+    description:
+      "Connexion directe à votre CRM existant (Salesforce, HubSpot, Pipedrive...). Chaque appel, chaque échange, chaque relance est tracé en temps réel dans votre outil.",
     features: [
       "Synchronisation bidirectionnelle automatique",
       "Qualification des leads en temps réel",
-      "Historique complet de chaque interaction"
-    ]
+      "Historique complet de chaque interaction",
+    ],
   },
   {
     title: "Prospection multicanale",
     badge: "Intégré",
-    description: "Orchestration de séquences de prospection mêlant cold calling, cold emailing et social selling pour engager vos prospects là où ils sont le plus réceptifs.",
+    description:
+      "Orchestration de séquences de prospection mêlant cold calling, cold emailing et social selling pour engager vos prospects là où ils sont le plus réceptifs.",
     features: [
       "Séquences email personnalisées et automatisées",
       "Automatisation des points de contact LinkedIn",
-      "Tracking d'ouverture, de clics et de réponses"
-    ]
+      "Tracking d'ouverture, de clics et de réponses",
+    ],
   },
   {
     title: "Data B2B & Enrichissement",
-    description: "Accès aux bases de données les plus fiables du marché pour identifier vos ICP (Ideal Customer Profile) et obtenir des coordonnées directes et vérifiées.",
+    description:
+      "Accès aux bases de données les plus fiables du marché pour identifier vos ICP (Ideal Customer Profile) et obtenir des coordonnées directes et vérifiées.",
     features: [
       "Scraping ciblé, légal et 100% RGPD compliant",
       "Enrichissement des données en temps réel",
-      "Vérification des adresses emails et numéros"
-    ]
+      "Vérification des adresses emails et numéros",
+    ],
   },
   {
     title: "Reporting & Analytics",
-    description: "Tableaux de bord personnalisés pour suivre les KPIs de vos campagnes. Vous gardez un œil sur le volume d'appels, les taux de conversion et le pipeline généré.",
+    description:
+      "Tableaux de bord personnalisés pour suivre les KPIs de vos campagnes. Vous gardez un œil sur le volume d'appels, les taux de conversion et le pipeline généré.",
     features: [
       "Dashboard Live accessible 24/7",
       "Suivi des KPIs (taux de conversion, RDV pris)",
-      "Enregistrement et analyse qualitative des appels"
-    ]
-  }
+      "Enregistrement et analyse qualitative des appels",
+    ],
+  },
 ];
 
 export const OUTILS_COMPATIBLES = [
   "SALESFORCE",
   "HUBSPOT",
   "PIPEDRIVE",
-  "LINKEDIN"
+  "LINKEDIN",
 ];
 
 // --- Page Localisation
@@ -249,39 +270,79 @@ export const LOCALISATION_HUBS = [
     bgRegion: "EUROPE",
     title: "Paris",
     subtitle: "Hub Europe — Siège",
-    description: "Siège opérationnel et stratégique. Coordination globale, co-construction des stratégies clients et pilotage des équipes européennes depuis la capitale."
+    description:
+      "Siège opérationnel et stratégique. Coordination globale, co-construction des stratégies clients et pilotage des équipes européennes depuis la capitale.",
   },
   {
     bgCity: "London",
     bgRegion: "UK & NORTH",
     title: "London",
     subtitle: "Hub UK & Europe du Nord",
-    description: "Au cœur du premier centre financier européen, notre hub londonien opère sur les marchés anglophones, nordiques et d'Europe du Nord."
+    description:
+      "Au cœur du premier centre financier européen, notre hub londonien opère sur les marchés anglophones, nordiques et d'Europe du Nord.",
   },
   {
     bgCity: "new york",
     bgRegion: "AMERICAS",
     title: "New York", // Corrigé depuis la maquette ;)
     subtitle: "Hub Amériques",
-    description: "Une implantation au cœur du marché américain pour conquérir les États-Unis, le Canada et l'Amérique latine avec une équipe locale et des codes culturels maîtrisés."
-  }
+    description:
+      "Une implantation au cœur du marché américain pour conquérir les États-Unis, le Canada et l'Amérique latine avec une équipe locale et des codes culturels maîtrisés.",
+  },
 ];
 
 export const LOCALISATION_SYNERGIE = [
   {
     title: "Maîtrise culturelle locale",
-    description: "Chaque hub recrute et forme des commerciaux natifs du marché. Ils comprennent les codes, les attentes et les décideurs locaux — une crédibilité impossible à simuler."
+    description:
+      "Chaque hub recrute et forme des commerciaux natifs du marché. Ils comprennent les codes, les attentes et les décideurs locaux — une crédibilité impossible à simuler.",
   },
   {
     title: "Coordination centrale",
-    description: "Malgré leur autonomie locale, tous nos hubs partagent la même méthodologie, les mêmes outils et la même vision stratégique définie avec vous depuis Paris."
+    description:
+      "Malgré leur autonomie locale, tous nos hubs partagent la même méthodologie, les mêmes outils et la même vision stratégique définie avec vous depuis Paris.",
   },
   {
     title: "Couverture horaire mondiale",
-    description: "Paris, Londres, New York — nos trois fuseaux garantissent une présence commerciale active sur toutes les plages horaires business des marchés clés."
+    description:
+      "Paris, Londres, New York — nos trois fuseaux garantissent une présence commerciale active sur toutes les plages horaires business des marchés clés.",
   },
   {
     title: "Scalabilité immédiate",
-    description: "Vous souhaitez attaquer un nouveau marché ? Nos hubs existants vous permettent de l'activer en semaines, sans création de structure ni recrutement local."
-  }
+    description:
+      "Vous souhaitez attaquer un nouveau marché ? Nos hubs existants vous permettent de l'activer en semaines, sans création de structure ni recrutement local.",
+  },
+];
+
+// --- Page Recrutement
+
+export const OFFRES_EMPLOI = [
+  {
+    title: "Business Developer B2B",
+    status: "Actif",
+    subtitle: "Chasse et Ouverture de Comptes Grands Comptes",
+    description:
+      "Votre mission : Identifier et approcher les décideurs C-Level, initier le premier contact et qualifier les besoins pour les grands comptes.",
+  },
+  {
+    title: "Account Manager (Closer)",
+    status: "Actif",
+    subtitle: "Scaling et Finalisation des contrats stratégiques",
+    description:
+      "Votre mission : Prendre le relais sur les comptes qualifiés, mener les négociations complexes et sécuriser la signature des partenariats.",
+  },
+  {
+    title: "Lead Generation Specialist",
+    status: "Actif",
+    subtitle: "Stratégie d'acquisition et Sourcing Data",
+    description:
+      "Votre mission : Construire et enrichir des bases de données ultra-ciblées, orchestrer les campagnes multicanales et optimiser le taux de réponse.",
+  },
+  {
+    title: "Sales Operations Manager",
+    status: "Actif",
+    subtitle: "Optimisation de la stack et Reporting",
+    description:
+      "Votre mission : Piloter la stack technologique, automatiser les processus CRM et assurer la qualité de la donnée pour maximiser la performance des campagnes.",
+  },
 ];

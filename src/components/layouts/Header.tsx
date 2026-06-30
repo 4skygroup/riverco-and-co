@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import logo from '../../assets/logo-riverco-co.webp';
 import { NAV_LINKS } from '../../utils/constants';
 import { MapPin } from 'lucide-react';
@@ -8,9 +9,12 @@ export default function Header() {
             {/* Partie gauche : Localisation + Recrutement */}
             <div className="flex items-center gap-4">
                 <MapPin className="w-5 h-5" />
-                                <button className="bg-red-600 hover:bg-red-700 transition-colors text-white px-4 py-2 rounded-full font-bold text-sm">
-                    Nous recrutons
-                </button>
+                <Link
+                    to="/recrutement"
+                    className="bg-red-600 hover:bg-red-700 transition-colors text-white px-4 py-2 rounded-full font-bold text-sm"
+                >
+                    Nous Recrutons
+                </Link>
             </div>
 
             {/* Logo */}

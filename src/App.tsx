@@ -11,6 +11,7 @@ import Externalisation from './pages/Externalisation';
 import Methodologie from './pages/Methodologie';
 import Outils from './pages/Outils';
 import Localisation from './pages/Localisation';
+import Recrutement from './pages/Recrutement';
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                         <Route path="/localisation" element={<Localisation />} />
                         <Route path="/methodologie" element={<Methodologie />} />
                         <Route path="/outils" element={<Outils />} />
+                        <Route path="/recrutement" element={<Recrutement />} />
                         <Route path="*" element={<Home />} />
                     </Routes>
                 </main>
