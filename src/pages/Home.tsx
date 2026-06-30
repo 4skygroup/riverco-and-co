@@ -1,18 +1,24 @@
-import Approche from '../components/home/Approche';
-import Faq from '../components/home/FAQ';
-import Hero from '../components/home/Hero';
-import Piliers from '../components/home/Piliers';
+import Approche from "../components/home/Approche";
+import Faq from "../components/home/Faq";
+import Hero from "../components/home/Hero";
+import Piliers from "../components/home/Piliers";
+import SEO from "../components/seo/Seo";
 
 export default function Home() {
   return (
-    <div className="w-full bg-black">
-      {/* Hero Section */}
-      <Hero />
-      <Piliers/>
-      <Approche/>
-      <Faq/>
-      
-      {/* C'est ici qu'on ajoutera les sections suivantes du sprint (Piliers, Approche, FAQ...) */}
-    </div>
+    <>
+      <SEO
+        title="Expert en Externalisation Commerciale"
+        description="Boostez votre croissance internationale avec Riverco & Co. Expertise en prospection B2B, closing et déploiement CRM."
+        canonical="https://rivercoandco.com/"
+      />
+      <div className="w-full bg-black">
+        {/* Hero Section */}
+        <Hero />
+        <Piliers />
+        <Approche />
+        <Faq />
+      </div>
+    </>
   );
 }

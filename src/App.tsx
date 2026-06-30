@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 
 // Import de nos composants de layout
 import Footer from './components/layouts/Footer';
@@ -17,6 +18,7 @@ import Services from './pages/Services';
 
 function App() {
     return (
+        <HelmetProvider>
         <Router>
             <ScrollToTop />
             <div className=" min-h-screen flex flex-col">
@@ -43,6 +45,7 @@ function App() {
 
             </div>
         </Router>
+        </HelmetProvider>
     );
 }
 
