@@ -12,6 +12,7 @@ export const NAV_LINKS = [
   { name: "Contact", path: "/contact" },
 ];
 
+// --- Page Home
 export const PILIERS_DATA = [
   {
     id: 1,
@@ -101,4 +102,49 @@ export const FAQ_DATA = [
     answer:
       "Nous fonctionnons dans une logique de partenariat et de transparence. Si les KPI définis ensemble ne sont pas atteints, nous ajustons nos approches (scripts, ciblages) sans frais supplémentaires. Notre part variable garantit notre alignement total avec vos intérêts.",
   },
+];
+
+// --- Page Externalisation
+
+export const COMPARISON_INTERNE = [
+  "6 à 12 mois de recrutement",
+  "Coûts fixes élevés (salaires, charges, bureaux)",
+  "Formation longue et incertaine",
+  "Risque d'implantation internationale",
+  "Visibilité limitée sur la performance"
+];
+
+export const COMPARISON_RIVERCO = [
+  "Opérationnel en moins de 4 semaines",
+  "100% coûts variables, zéro structure",
+  "Équipe formée à votre ADN dès J+1",
+  "3 hubs actifs Paris, Londres, New York",
+  "Dashboard partagé en temps réel"
+];
+
+export const EXTERNALISATION_AVANTAGES = [
+  {
+    title: "Recrutement & RH",
+    description: "Nous gérons la sélection, la formation et le management opérationnel de votre équipe commerciale."
+  },
+  {
+    title: "Implantation locale",
+    description: "Nos hubs existants vous donnent une présence immédiate sur les marchés clés, sans entité juridique locale."
+  },
+  {
+    title: "Pilotage & reporting",
+    description: "Un accès temps réel à vos KPIs commerciaux. Vous gardez la vision, nous gérons l'exécution."
+  },
+  {
+    title: "Stack technologique",
+    description: "CRM, outils de prospection, automation — entièrement configurés et maintenus par nos équipes."
+  },
+  {
+    title: "Stratégie & ajustements",
+    description: "Nous optimisons le discours, le ciblage et la stratégie en continu selon les résultats terrain."
+  },
+  {
+    title: "Conformité internationale",
+    description: "Nos équipes connaissent les codes culturels et réglementaires de chaque marché visé."
+  }
 ];
