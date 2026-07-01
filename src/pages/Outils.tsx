@@ -12,12 +12,12 @@ export default function Outils() {
         description="Une infrastructure technologique au service de votre performance. CRM, automation, et analytics pour une prospection sous contrôle total."
         canonical="https://rivercoandco.com/outils"
       />
-      <div className="w-full bg-black text-white flex flex-col pt-12 pb-24">
+      <main className="w-full bg-black text-white flex flex-col pt-12 pb-24">
         <Hero />
         <Ecosysteme />
         <Compatibilite />
         <Cta />
-      </div>
+      </main>
     </>
   );
 }

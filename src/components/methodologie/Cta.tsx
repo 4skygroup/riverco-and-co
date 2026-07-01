@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Cta() {
     return (
         <section className="w-full px-6 md:px-16 pt-8 pb-12">
@@ -9,7 +11,7 @@ export default function Cta() {
                     Un échange de 30 minutes pour tout comprendre.
                 </p>
 
-                <button className="mt-2 flex items-center gap-3 bg-transparent border border-white hover:bg-white/10 transition-colors text-white font-medium text-sm md:text-base px-8 py-3 rounded-full cursor-pointer">
+                <Link to="/contact" className="mt-2 flex items-center gap-3 bg-transparent border border-white hover:bg-white/10 transition-colors text-white font-medium text-sm md:text-base px-8 py-3 rounded-full cursor-pointer">
                     Demander Un RDV
                     <svg
                         width="14"
@@ -24,7 +26,7 @@ export default function Cta() {
                             fill="currentColor"
                         />
                     </svg>
-                </button>
+                </Link>
             </div>
         </section>
     );

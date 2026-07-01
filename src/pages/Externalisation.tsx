@@ -13,12 +13,12 @@ export default function Externalisation() {
         canonical="https://rivercoandco.com/externalisation"
       />
 
-      <div className="w-full bg-black text-white flex flex-col pt-12 pb-24">
+      <main className="w-full bg-black text-white flex flex-col pt-12 pb-24">
         <Hero />
         <Comparaison />
         <Avantages />
         <Cta />
-      </div>
+      </main>
     </>
   );
 }

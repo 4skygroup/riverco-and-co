@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { APPROCHE_DATA } from '../../utils/constants';
 
 export default function Approche() {
@@ -47,9 +48,11 @@ export default function Approche() {
             ))}
           </div>
 
-          {/* Bouton CTA centré */}
           <div className="flex justify-center mt-4">
-            <button className="flex items-center gap-3 bg-transparent border border-white hover:bg-white/10 transition-colors text-white font-medium text-sm md:text-base px-8 py-3 rounded-full cursor-pointer">
+            <Link
+              to="/services"
+              className="flex items-center gap-3 bg-transparent border border-white hover:bg-white/10 transition-colors text-white font-medium text-sm md:text-base px-8 py-3 rounded-full cursor-pointer"
+            >
               Nos Services
               <svg
                 width="14"
@@ -64,7 +67,7 @@ export default function Approche() {
                   fill="currentColor"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </section>

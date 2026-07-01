@@ -12,12 +12,12 @@ export default function Methodologie() {
         description="Découvrez la méthode Riverco pour une prospection chirurgicale : qualification, approche multicanale et pilotage transparent de vos campagnes."
         canonical="https://rivercoandco.com/methodologie"
       />
-      <div className="w-full bg-black text-white flex flex-col pt-12 pb-24">
+      <main className="w-full bg-black text-white flex flex-col pt-12 pb-24">
         <Hero />
         <Parcours />
         <Philosophie />
         <Cta />
-      </div>
+      </main>
     </>
   );
 }

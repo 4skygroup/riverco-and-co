@@ -13,12 +13,12 @@ export default function Localisation() {
         canonical="https://rivercoandco.com/localisation"
       />
 
-      <div className="w-full bg-black text-white flex flex-col pt-12 pb-24">
+      <main className="w-full bg-black text-white flex flex-col pt-12 pb-24">
         <Hero />
         <Hubs />
         <Synergie />
         <Cta />
-      </div>
+      </main>
     </>
   );
 }

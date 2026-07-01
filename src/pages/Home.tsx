@@ -14,13 +14,12 @@ export default function Home() {
         canonical="https://rivercoandco.com/"
       />
       <JSONLD/>
-      <div className="w-full bg-black">
-        {/* Hero Section */}
+      <main className="w-full bg-black">
         <Hero />
         <Piliers />
         <Approche />
         <Faq />
-      </div>
+      </main>
     </>
   );
 }
