@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+/* 1. On déclare la police Regular */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. On déclare la police Bold */
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 3. On dit à Tailwind v4 d'utiliser cette police par défaut */
+@theme {
+  --font-sans: 'Glacial Indifference', sans-serif;
+}
