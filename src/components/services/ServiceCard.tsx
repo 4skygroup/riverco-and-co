@@ -24,7 +24,7 @@ export default function ServiceCard({ title, description, stats }: Props) {
 
             {/* Partie Texte */}
             <div className="w-full md:w-1/2 flex flex-col gap-4">
-                <h3 className="text-xl md:text-2xl font-bold">{title}</h3>
+                <h2 className="text-xl md:text-2xl font-bold">{title}</h2>
                 <p className="text-gray-400 text-sm md:text-base leading-relaxed">{description}</p>
             </div>
         </div>

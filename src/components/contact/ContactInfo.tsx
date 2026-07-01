@@ -3,9 +3,9 @@ import { Compass, TrendingUp } from 'lucide-react';
 export default function InfoSection() {
     return (
         <div className="flex flex-col gap-8 text-white max-w-xl">
-            <h2 className="text-4xl md:text-5xl font-bold">
+            <h1 className="text-4xl md:text-5xl font-bold">
                 Contactez <span className="text-[#FF0000]">notre équipe</span>
-            </h2>
+            </h1>
             <p className="text-gray-400 text-lg leading-relaxed">
                 Laissez-nous votre prospection commerciale et l'intégration de votre CRM pour transformer chaque interaction en résultats concrets. Automatisez vos process, accélérez votre croissance. Parlons-en.
             </p>
