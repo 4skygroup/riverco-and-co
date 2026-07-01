@@ -19,7 +19,7 @@ export default function Header() {
 
             {/* Logo */}
             <div className="flex justify-center">
-                <img src={logo} alt="Riverco & Co Logo" className="h-8 w-auto" />
+                <img src={logo} alt="Riverco & Co Logo" loading="lazy" className="h-8 w-auto" />
             </div>
 
             {/* Navigation */}

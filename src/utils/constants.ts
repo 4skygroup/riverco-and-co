@@ -283,8 +283,8 @@ export const LOCALISATION_HUBS = [
   },
   {
     bgCity: "new york",
-    bgRegion: "AMERICAS",
-    title: "New York", // Corrigé depuis la maquette ;)
+    bgRegion: "AMERICA",
+    title: "New York",
     subtitle: "Hub Amériques",
     description:
       "Une implantation au cœur du marché américain pour conquérir les États-Unis, le Canada et l'Amérique latine avec une équipe locale et des codes culturels maîtrisés.",
