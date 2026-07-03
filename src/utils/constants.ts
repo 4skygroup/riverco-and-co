@@ -42,28 +42,28 @@ export const PILIERS_DATA = [
 
 export const APPROCHE_DATA = [
   {
-    image: "images/call-riverco-and-co.webp",
+    image: "images/back-office-riverco-and-co.webp",
     id: 1,
     title: "Une approche pédagogique centrée sur la performance",
     description:
       "Les contenus sont pensés pour être activables dès la formation, avec un impact à long terme sur les équipes.",
   },
   {
-    image: "images/call-riverco-and-co.webp",
+    image: "images/tech-team-riverco-and-co.webp",
     id: 2,
     title: "Des intervenants spécialisés et expérimentés",
     description:
       "Animée par les fondateurs, forts de leur expérience, qui interviennent directement dans la formation.",
   },
   {
-    image: "images/call-riverco-and-co.webp",
+    image: "images/presentation-riverco-and-co.webp",
     id: 3,
     title: "Un programme élaboré par une agence de référence",
     description:
       "Nous générons des opportunités commerciales à froid pour nos clients et formons vos équipes à partir de notre expérience concrète.",
   },
   {
-    image: "images/call-riverco-and-co.webp",
+    image: "images/prospection-riverco-and-co.webp",
     id: 4,
     title: "Des approches validées par l'expérience sur le terrain",
     description:
