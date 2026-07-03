@@ -1,5 +1,6 @@
 import SEO from "../../components/seo/Seo";
 import Cta from "../../components/services/Cta";
+import Process from "../../components/services/Process";
 
 export default function ProspectionExternalisee() {
   return (
@@ -67,7 +68,8 @@ export default function ProspectionExternalisee() {
             </div>
           </div>
         </section>
-
+        
+        <Process />
         <Cta />
       </main>
     </>

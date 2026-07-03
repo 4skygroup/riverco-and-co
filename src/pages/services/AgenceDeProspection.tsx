@@ -1,5 +1,6 @@
 import SEO from "../../components/seo/Seo";
 import Cta from "../../components/services/Cta";
+import Process from "../../components/services/Process";
 
 export default function AgenceDeProspection() {
   return (
@@ -76,6 +77,7 @@ export default function AgenceDeProspection() {
           </div>
         </section>
 
+        <Process/>
         <Cta />
       </main>
     </>
