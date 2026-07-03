@@ -74,7 +74,9 @@ const Footer = () => {
               <FooterLink href="mailto:contact@rivercoandco.com">
                 contact@rivercoandco.com
               </FooterLink>
-              <FooterLink href="tel:+33651081738">+33 6 51 08 17 38</FooterLink>
+              <FooterLink href="tel:+330130293025">
+                +33 1 30 29 30 25
+              </FooterLink>
               <span className="text-gray-300">Paris, France</span>
 
               {/* Réseaux Sociaux */}
@@ -98,7 +100,7 @@ const Footer = () => {
 
           {/* COPYRIGHT */}
           <div className="pt-8 flex justify-center items-center">
-            <CreatedBy/>
+            <CreatedBy />
           </div>
         </div>
       </footer>
