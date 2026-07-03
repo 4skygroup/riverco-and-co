@@ -21,6 +21,7 @@ import StrategieCommerciale from './pages/services/StrategieCommerciale';
 import InboundMarketing from './pages/services/Marketing';
 import CallCenterB2B from './pages/services/CallCenterB2B';
 import ConsultingCommercial from './pages/services/ConsultingCommercial';
+import Locations from './pages/Locations';
 
 function App() {
     return (
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/externalisation" element={<Externalisation />} />
                 <Route path="/localisation" element={<Localisation />} />
+                <Route path="/locations" element={<Locations />} />
                 <Route path="/methodologie" element={<Methodologie />} />
                 <Route path="/outils" element={<Outils />} />
                 <Route path="/recrutement" element={<Recrutement />} />
