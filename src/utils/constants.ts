@@ -351,23 +351,57 @@ export const OFFRES_EMPLOI = [
 
 export const SERVICES_ITEMS = [
   {
-    title: "Externalisation commerciale clé en main",
-    description: "Une force de vente internationale immédiatement opérationnelle. Vos commerciaux dédiés, formés à votre ADN, déployés sur vos marchés cibles en moins de 4 semaines.",
-    stats: { appels: "2 300", trend: "+21%" }
+    title: "Agence de prospection",
+    description:
+      "Confiez votre acquisition à notre agence. Ciblage chirurgical, approche multicanale et génération de rendez-vous hyper-qualifiés.",
+    stats: { appels: "3 200 appels", trend: "14%" },
+    image:
+      "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=800&q=80",
+    path: "/services/agence-de-prospection",
   },
   {
-    title: "Prospection Inbound & Outbound",
-    description: "Multiplication des points de contact stratégiques. Nous combinons cold calling, emailing et LinkedIn automation pour saturer votre pipeline de leads qualifiés.",
-    stats: { appels: "1 850", trend: "+15%" }
+    title: "Prospection externalisée",
+    description:
+      "Externalisez votre prospection commerciale sans aucun risque structurel. Nos SDR d'élite génèrent votre pipeline sur mesure.",
+    stats: { appels: "45 RDV qualifiés", trend: "22%" },
+    image:
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+    path: "/services/prospection-externalisee",
   },
   {
-    title: "Consulting Stratégie Commerciale",
-    description: "Audit de vos process actuels et refonte de votre stack sales. Nous structurons votre croissance pour passer à l'échelle (scale) sans friction opérationnelle.",
-    stats: { appels: "3 100", trend: "+32%" }
+    title: "Call center B2B",
+    description:
+      "Un centre d'appels B2B axé sur la performance. Téléprospection haut de gamme, qualification de fichiers et relance de leads.",
+    stats: { appels: "12 500 contacts", trend: "8%" },
+    image:
+      "https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=800&q=80",
+    path: "/services/call-center-b2b",
   },
   {
-    title: "Recrutement & Formation Sales",
-    description: "Vous préférez internaliser ? Nous sourçons, recrutons et formons vos équipes à nos méthodes de vente d'élite. Transmission de savoir-faire garantie.",
-    stats: { appels: "2 500", trend: "+18%" }
-  }
+    title: "Inbound marketing",
+    description:
+      "Attirez vos clients idéaux au lieu de les chasser. Génération de leads organiques, tunnels de conversion et stratégies de contenu.",
+    stats: { appels: "+350 Leads in", trend: "41%" },
+    image:
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=800&q=80",
+    path: "/services/inbound-marketing",
+  },
+  {
+    title: "Consulting commercial",
+    description:
+      "Optimisez vos processus commerciaux, formez vos équipes et intégrez les meilleurs outils de vente du marché pour maximiser votre ROI.",
+    stats: { appels: "+28% de Win Rate", trend: "18%" },
+    image:
+      "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80",
+    path: "/services/consulting-commercial",
+  },
+  {
+    title: "Stratégie commerciale",
+    description:
+      "Définissez votre stratégie de conquête de marché. Structuration des offres, pricing et positionnement à l'international.",
+    stats: { appels: "Nouveaux marchés", trend: "100%" },
+    image:
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80",
+    path: "/services/strategie-commerciale",
+  },
 ];
