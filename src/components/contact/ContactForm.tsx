@@ -1,6 +1,6 @@
 export default function ContactForm() {
   return (
-    <div className="bg-[#EBEBEB] p-8 md:p-10 rounded-4xl w-full max-w-lg text-black">
+    <div className="bg-[#EBEBEB] p-8 md:p-10 rounded-4xl w-full max-w-lg mx-auto text-black">
       <h2 className="text-3xl font-bold mb-8">Échanger avec notre équipe</h2>
 
       <form

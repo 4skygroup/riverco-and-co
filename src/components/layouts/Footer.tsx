@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { pages, services, social } from "./footer/FooterData";
+import CreatedBy from "./footer/CreatedBy";
 
 const FooterColumn = ({
     title,
@@ -97,7 +98,7 @@ const Footer = () => {
 
           {/* COPYRIGHT */}
           <div className="pt-8 flex justify-center items-center">
-            <p className="text-gray-400 text-sm">© 2026 Riverco & Co</p>
+            <CreatedBy/>
           </div>
         </div>
       </footer>

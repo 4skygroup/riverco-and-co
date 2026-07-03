@@ -2,7 +2,7 @@ import { Compass, TrendingUp } from 'lucide-react';
 
 export default function InfoSection() {
     return (
-        <div className="flex flex-col gap-8 text-white max-w-xl">
+        <div className="flex flex-col gap-8 text-white max-w-xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold">
                 Contactez <span className="text-[#FF0000]">notre équipe</span>
             </h1>
