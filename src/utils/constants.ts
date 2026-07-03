@@ -235,6 +235,7 @@ export const OUTILS_ECOSYSTEME = [
   },
   {
     title: "Data B2B & Enrichissement",
+    isPending: true, // <-- Ajout de la propriété ici
     description:
       "Accès aux bases de données les plus fiables du marché pour identifier vos ICP (Ideal Customer Profile) et obtenir des coordonnées directes et vérifiées.",
     features: [
@@ -245,6 +246,7 @@ export const OUTILS_ECOSYSTEME = [
   },
   {
     title: "Reporting & Analytics",
+    isPending: true, // <-- Ajout de la propriété ici
     description:
       "Tableaux de bord personnalisés pour suivre les KPIs de vos campagnes. Vous gardez un œil sur le volume d'appels, les taux de conversion et le pipeline généré.",
     features: [
